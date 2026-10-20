@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: skillcoins4
+  m_Rect:
+    serializedVersion: 2
+    x: 51.026752
+    y: 7.0761204
+    width: 153.9465
+    height: 209.84775
+  m_Offset: {x: 0, y: 16.000006}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 100
+  m_Pivot: {x: 0.5, y: 0.5762458}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 053ee44fa973d3243aa092372aa9a87e, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.77, y: 0.82, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.56, y: -1.19, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.77, y: -1.11, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.52, y: 0.89, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.43, y: -1.21, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.37, y: -1.21, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.53, y: 0.89, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.7, y: -1.05, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.71, y: 0.73, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.77, y: -0.09, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.77, y: -0.66, z: 0}
+    indices: 0a0009000700080007000900060007000800050007000600030005000600040005000300010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 51.026752
+      y: 7.0761204
+      width: 153.9465
+      height: 209.84775
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 100, y: 128, z: 100, w: 128}

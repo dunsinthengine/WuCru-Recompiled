@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257bcdf08917b8b9179117b6cb531efc, type: 3}
+  m_Name: ThemeDB
+  m_EditorClassIdentifier:
+  themeCollections:
+    keys:
+    - AT_WILDERNESS
+    - AT_ROAD
+    - AT_CITY
+    - AT_VILLAGE
+    - TeaFarm
+    - AT_FLAT_CITY
+    values:
+    - {fileID: 11400000, guid: fe7720ee6e3fcb049b75a35a4770a0ce, type: 2}
+    - {fileID: 11400000, guid: 2d3faf4fb6a1b4e428836d897df22736, type: 2}
+    - {fileID: 11400000, guid: a2b1221ac1f75f349860d6e6ed1ec8d9, type: 2}
+    - {fileID: 11400000, guid: 5cc595fc7d7283646be6bd386373f60a, type: 2}
+    - {fileID: 11400000, guid: 33d454ff87272e04d8282f80f6db6879, type: 2}
+    - {fileID: 11400000, guid: b09f296a9d98e02429d87f4b4bddd85b, type: 2}

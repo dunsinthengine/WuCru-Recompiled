@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: map_unexplored
+  m_Rect:
+    serializedVersion: 2
+    x: 26.059729
+    y: 0
+    width: 58.86415
+    height: 67
+  m_Offset: {x: -5.491803, y: 0}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 100
+  m_Pivot: {x: 0.40670377, y: 0.5}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: c44f2ffb61ed42c45a7b5b643a00ff69, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.35, y: 0.335, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.31, y: -0.335, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.35, y: -0.215, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.24, y: 0.335, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.24, y: -0.335, z: 0}
+    indices: 040003000100000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 26.059729
+      y: 0
+      width: 58.86415
+      height: 67
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 100, y: 50, z: 100, w: 33.5}

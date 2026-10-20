@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: myninja_icon hair
+  m_Rect:
+    serializedVersion: 2
+    x: 50.076122
+    y: 31.07612
+    width: 159.84775
+    height: 204.84775
+  m_Offset: {x: -2.0000005, y: -5.4999943}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 100
+  m_Pivot: {x: 0.4874881, y: 0.47315082}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 62392722607e4c448b8049ebdff26c77, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.49, y: 1.08, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.29, y: -0.7, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.27, y: -0.7, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.62, y: 1.08, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.29, y: -0.82, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.82, y: 0.85, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.6, y: -0.97, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.82, y: -0.83, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.27, y: -0.79, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.25, y: -0.83, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.26, y: -0.83, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.76, y: -0.97, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.78, y: 1.06, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.78, y: -0.81, z: 0}
+    indices: 040001000a0002000a00010009000a0002000800090002000d000c000b0003000b000c0004000b0003000a000b00040006000b000a00090006000a00080006000900020006000800000006000200050006000000070006000500000001000300040003000100020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 50.076122
+      y: 31.07612
+      width: 159.84775
+      height: 204.84775
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 100, y: 128, z: 100, w: 128}

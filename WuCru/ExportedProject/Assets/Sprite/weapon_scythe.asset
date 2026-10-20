@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: weapon_scythe
+  m_Rect:
+    serializedVersion: 2
+    x: 6.0668507
+    y: 15.07612
+    width: 99.89965
+    height: 81.84776
+  m_Offset: {x: 6.4833245, y: 6.5000005}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 100
+  m_Pivot: {x: 0.5648984, y: 0.57941574}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 37823b7f0dffc754abb32961147d2cb3, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.435, y: -0.125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.355, y: -0.425, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.435, y: -0.395, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.225, y: 0.345, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.095, y: -0.475, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.195, y: 0.345, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.565, y: 0.085, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.565, y: -0.475, z: 0}
+    indices: 070006000400050004000600030004000500010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 6.0668507
+      y: 15.07612
+      width: 99.89965
+      height: 81.84776
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 100, y: 62.5, z: 100, w: 62.5}

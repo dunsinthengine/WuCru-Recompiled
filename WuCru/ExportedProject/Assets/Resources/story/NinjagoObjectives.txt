@@ -1,0 +1,17 @@
+Season	Chapter	AreaMap	ObjectiveType	AmountToComplete	ObjectType	ObjectSpawnType	SpawnChance	Seed	LevelSequence	ObjectivePatternID	DescriptionStringID	Completed	Event	Localization Key
+1	1	S1A1	Complete	0	None	None	1	1049	-1	None	(Create A Character & play first level)	FALSE		OBJECTIVE_S1_C1
+1	2	S1A1	Complete	1	None	None	1	1041	0	RescueZane	Locate Zane nearby in the Tea Farm surroundings	FALSE	UnlockSpinjitzu	OBJECTIVE_S1_C2
+1	3	S1A1	Complete	1	None	None	1	1042	0	RescueCole	Find your way to Cole by clearing areas of corruption	FALSE		OBJECTIVE_S1_C3
+1	4	S1A1	Complete	1	None	None	1	1034	0	RescueJay	Find Kai and Jay to the Northeast of the Tea Farm	FALSE		OBJECTIVE_S1_C4
+1	5	S1A1	Complete	1	None	None	1	1035	0	RescueKai	Find Kai and Jay to the Northeast of the Tea Farm	FALSE		OBJECTIVE_S1_C4
+1	6	S1A1	Complete	1	None	None	1	1026	0	RescueNyah	Find entrance to Samurai X Cave. Nya may be seeking shelter there.	FALSE	UnlockGarageButton	OBJECTIVE_S1_C5
+1	7	S1A1	Complete	1	None	None	1	1018	0	FindTheHoloLog	Find Lloyd's Holo log to learn what he has discovered	FALSE		OBJECTIVE_S1_C7
+1	8	S1A2	Complete	1	None	None	1	2034	0	ConstrictaiBoss	Use the golden scales to gain access to the Serpentine Fortress	FALSE		OBJECTIVE_S1_C10
+1	9	S1A2	Complete	1	None	None	1	2000	0	None	Follow the snake tunnels to see where they lead	FALSE		OBJECTIVE_S1_C11
+1	10	S1A3	Complete	1	None	None	1	3067	0	VenomariBoss	Infiltrate the Venomari Tomb to learn more	FALSE		OBJECTIVE_S1_C12
+1	11	S1A3	Complete	1	None	None	1	3025	0	FangpyreBoss	Open the Fangpyre Tomb, to follow the trail of Fangtom	FALSE		OBJECTIVE_S1_C15
+1	12	S1A3	Complete	1	None	None	1	3045	0	HypnobraiBoss	Travel to the Hypnobrain tomb in the Glaicer Barrens	FALSE		OBJECTIVE_S1_C17
+1	13	S1A3	Complete	1	None	None	1	3049	0	None	Access the Anacondrai tomb in the Western Sea of Sand	FALSE		OBJECTIVE_S1_C18
+1	14	S1A3	Complete	1	None	None	1	3070	0	None	Get To Oborororororos	FALSE		OBJECTIVE_S1_C20
+1	15	S1A3	Complete	1	None	None	1	3079	0	FangpyreBoss	Defeat Fangtom and stop his plans to become The Great Devourer	FALSE		OBJECTIVE_S1_C20
+1	16	S1A3	Complete	0	None	None	1	-1	-1	None	Fangtom has been stopped, but there are many more areas to clear of corruption.	FALSE		OBJECTIVE_S1_C21

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2498a2b38ad48b3d78f81d6b3fea5165, type: 3}
+  m_Name: Kai_618x618px
+  m_EditorClassIdentifier:
+  Name: Kai_618x618px
+  Fps: 15
+  Repetitions: 0
+  Index: 3
+  Sequence: 0
+  Frames:
+  - {fileID: 2800000, guid: a9842c940c2a472418e46593b58f9d5c, type: 3}

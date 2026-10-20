@@ -1,0 +1,13 @@
+male face,female face,male hair,female hair,helmet,helmet hides hair,decal level,legs,pelvis,torso
+Face_Male_GenB_A_0001,Face_Female_Custom_0001,Equipment/Hair_3901,Equipment/Hair_4530,Equipment/MiniMask,FALSE,0,70500_Kai Kimono_Legs,70500_Kai Kimono_Pelvis,70500_Kai Kimono_Torso
+Face_Male_GenB_A_0005,Face_Female_Custom_0002,Equipment/Hair_92081,Equipment/Hair_64807,Equipment/FullMask,TRUE,0,70501_Jay Kimono_Legs,70501_Jay Kimono_Pelvis,70501_Jay Kimono_Torso
+Face_Male_GenB_A_0011,Face_Female_GenG_A_0001,Equipment/Hair_43751,Equipment/Hair_87990,,,0,70502_Cole Kimono_Legs,70502_Cole Kimono_Pelvis,70502_Cole Kimono_Torso
+Face_Male_GenB_A_0019,Face_Female_GenG_A_0005,Equipment/Hair_87995,Equipment/Hair_92255,,,0,70504_Zane Kimono_Legs,70504_Zane Kimono_Pelvis,70504_Zane Kimono_Torso
+Face_Male_GenB_B_0003,Face_Female_GenG_A_0015,Equipment/Hair_93563,Equipment/Hair_92256,,,3,,,70723_Cole Techno_Torso
+Face_Male_GenM_A_0021,Face_Female_GenG_B_0001,Equipment/Hair_98385,Equipment/Hair_92746,,,,,,
+Face_Male_GenM_A_0023,Face_Female_GenG_B_0019,,Equipment/Hair_10048,,,,,,
+Face_Male_Lloyd_0011,Face_Female_GenW_A_0001,,Equipment/Hair_11256,,,,,,
+Face_Male_Lloyd_0013,Face_Female_GenW_B_0001,,Equipment/Hair_62711,,,,,,
+Face_Male_Lloyd_0019,Face_Female_GenW_C_0001,,Equipment/Hair_87995,,,,,,
+,,,Equipment/Hair_93563,,,,,,
+,,,Equipment/Hair_95328,,,,,,

@@ -1,0 +1,17 @@
+public enum ECOLLECTABLE_CARD
+{
+	INVALID = 0,
+	LLOYD = 1,
+	KAI = 2,
+	NYA = 3,
+	ZANE = 4,
+	COLE = 5,
+	JAY = 6,
+	WU = 7,
+	GARMADON = 8,
+	GENERAL_1 = 9,
+	GENERAL_2 = 10,
+	FISH_SQUAD = 11,
+	IT_GUYS = 12,
+	NUM_CARDS = 13
+}

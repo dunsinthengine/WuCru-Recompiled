@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<credits>
+  <credit type="texture" data="creditsTexture_header" data2="" />
+  <credit type="title" data="NINJAGO WU-CRU" data2="" />
+  <credit type="singlecolumn" data="SEASON 1" data2="" />
+  <credit type="space" data="1" data2="" />
+
+
+  <credit type="title" data="Developed by" data2="" />
+  <credit type="space" data="1" data2="" />
+  <credit type="singlecolumn" data="Cape Copenhagen" data2="" />
+  <credit type="singlecolumn" data="LEGO Digital Games" data2="" />
+  <credit type="space" data="2" data2="" />
+
+  <credit type="title" data="Development Team" data2="" />
+  <credit type="space" data="1" data2="" />
+  <credit type="twocolumns" data="Game Direction" data2="Thomas Løfgren" />
+  <credit type="twocolumns" data="Associate Producer" data2="Annemette Olesen" />
+  <credit type="twocolumns" data="Technical Lead" data2="Caspar Strandbygaard" />
+  <credit type="twocolumns" data="Art Direction" data2="Carsten Brandt" />
+  <credit type="twocolumns" data="Programming" data2="Thomas Riisbjerg" />
+  <credit type="twocolumns" data="" data2="Martin Dejean" />
+  <credit type="twocolumns" data="" data2="Julian Ridley Pryn" />  
+  <credit type="twocolumns" data="" data2="Peter Bruun" />
+  <credit type="twocolumns" data="Story" data2="Hans-Henrik Højbye" />
+  <credit type="twocolumns" data="Sound Design" data2="Rasmus Hartvig" />
+  <credit type="twocolumns" data="Animation" data2="Erik Lundgren" />
+  <credit type="twocolumns" data="Graphics" data2="Dennis Hansen" />
+  <credit type="twocolumns" data="" data2="Simon Holm" />
+  <credit type="twocolumns" data="" data2="Frits Lyneborg" />
+  <credit type="twocolumns" data="GUI Artist" data2="Jesper 'Ezme' Sørensen" />
+  <credit type="twocolumns" data="Technical Artist" data2="Mads Fog Nielsen" />
+  <credit type="twocolumns" data="Illustration" data2="Kristian Kristensen" />
+  <credit type="twocolumns" data="Prop Maker" data2="Mads Herman Johansen" />
+
+  <credit type="space" data="2" data2="" />
+  <credit type="texture" data="creditsTexture_ruler2" data2="" />
+  <credit type="space" data="1" data2="" />
+
+  <credit type="title" data="CAPE Copenhagen" data2="" />
+  <credit type="title" data="Management and Support" data2="" />
+  <credit type="space" data="1" data2="" />
+  <credit type="twocolumns" data="CCO" data2="Peter Holm" />
+  <credit type="twocolumns" data="COO" data2="Anna Ottesen" />
+  <credit type="twocolumns" data="Associate Producer of QA" data2="Kunal PatelSmith" />
+  <credit type="twocolumns" data="Chief Game Designer" data2="Tobias Thorsen" />
+  <credit type="twocolumns" data="Finance" data2="Nikolaj Fjord" />
+
+  <credit type="space" data="2" data2="" />
+  <credit type="texture" data="creditsTexture_ruler1" data2="" />
+  <credit type="space" data="1" data2="" />
+
+  <credit type="title" data="LEGO Systems" data2="" />
+  <credit type="space" data="1" data2="" />
+  <credit type="twocolumns" data="Product Owner" data2="Torben Leth-Nissen" />
+  <credit type="twocolumns" data="Senior Designer" data2="Brian Nielsen" />
+  <credit type="twocolumns" data="Designer" data2="Callan Jay Kemp" />
+  <credit type="twocolumns" data="Creative Story Manager" data2="Tommy Kalmar" />
+  <credit type="twocolumns" data="Creative Manager" data2="Adrian Andrei" />
+  <credit type="twocolumns" data="Producer" data2="Vaughan Wallis" />
+  <credit type="twocolumns" data="QA" data2="Adrian Tolea" />
+
+  <credit type="space" data="2" data2="" />
+  <credit type="texture" data="creditsTexture_ruler2" data2="" />
+  <credit type="space" data="2" data2="" />
+
+
+  <credit type="title" data="Playtesters" data2="" />
+  <credit type="space" data="1" data2="" />
+  <credit type="singlecolumn" data="Sebastian" data2="" />
+  <credit type="singlecolumn" data="Daniel" data2="" />
+  <credit type="singlecolumn" data="Oliver" data2="" />
+  <credit type="singlecolumn" data="Norman" data2="" />
+  <credit type="singlecolumn" data="Storm" data2="" />
+  <credit type="singlecolumn" data="Anton" data2="" />
+  <credit type="singlecolumn" data="Nicolai" data2="" />
+  <credit type="singlecolumn" data="Emma Maria" data2="" />
+  
+
+  <credit type="space" data="2" data2="" />
+  <credit type="texture" data="creditsTexture_ruler1" data2="" />
+  <credit type="space" data="2" data2="" />
+
+  <credit type="title" data="Special Thanks to" data2="" />
+  <credit type="space" data="1" data2="" />
+  <credit type="singlecolumn" data="The Ninjago CMA team" data2="" />
+  <credit type="singlecolumn" data="Emil Holm - Wilfilm" data2="" />
+  <credit type="singlecolumn" data="NINJAGO.WIKIA.COM" data2="" />
+
+
+  <credit type="space" data="2" data2="" />
+  <credit type="texture" data="creditsTexture_ruler2" data2="" />
+  <credit type="space" data="1" data2="" />
+
+  <credit type="singlecolumn" data="Keep exploring NINJAGO" data2="" />
+  <credit type="singlecolumn" data="Season 2 coming soon" data2="" />
+
+  <credit type="space" data="1" data2="" />
+  <credit type="texture" data="creditsTexture_WuCru" data2="" />
+  <credit type="space" data="1" data2="" />
+
+    <credit type="singlecolumn" data="Join the WU-CRU at" data2="" />
+  <credit type="singlecolumn" data="www.NINJAGO.com" data2="" />
+
+</credits>

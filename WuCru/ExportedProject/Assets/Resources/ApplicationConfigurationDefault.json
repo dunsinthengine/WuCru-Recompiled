@@ -1,0 +1,44 @@
+{
+	"configuration":{
+		"@name":"Ninjago Wu-Cru",
+		"@contentlanguage":"en-US",
+		"@version":"1",
+		"experience":"ninjagowucru",
+		"minimumversion":"1.0.0",
+		"killswitch":"0",
+		"tracking":"0",
+		"litetracking":"",
+		"notracking":"",
+		"commonconfigurations":{
+			"legoid":{
+				"endpoints":{
+					"legoidconfiguration":"https://lc-www-live-s.legocdn.com/r/account2/en-us/services/account/apiconfigservice.ashx",
+					"legoiddeletedaccountsfeed":"https://account2.lego.com/account/deletedusers/feed",
+					"legoidmyfriends":"https://www.us.lego.com/en-us/myfriends",
+					"legoidmyfriendswebpage":"https://www.us.lego.com/en-us/myfriends?context=app",
+					"legoidtoken":"https://account2.lego.com/account/v1/partnertoken"
+				}
+			},
+			"appdialogue":{
+				"customvalues":{
+					"killswitchtext":"This app is no longer being maintained by The LEGO Group. Please delete it from your device.",
+					"minimumversiontext":"New features have been added to this app. Please upgrade your app through your store.",
+					"ok":"ok",
+					"warning":"warning"
+				}
+			},
+			"privacypolicy":{
+				"endpoints":{
+					"cookiepolicy":"http://lego.com/en-us/go/7/cookie",
+					"privacypolicy":"http://lego.com/en-us/go/7/privacy"
+				}
+			}
+		},
+		"customvalues":{
+			"gameurl":"https://lc-www-live-s.legocdn.com/FranchiseSites/Ninjago/NinjagoMovieGame/v15/index.html?en_us"
+		},
+		"assets":{
+			"appimage":"https://lc-www-live-s.legocdn.com/r/www/r/applicationconfiguration/-/media/applicationconfiguration/cityandninjagolegolifeimageinapp/legolifebg_image_en.png?l.r2=1460454656"
+		}
+	}
+}

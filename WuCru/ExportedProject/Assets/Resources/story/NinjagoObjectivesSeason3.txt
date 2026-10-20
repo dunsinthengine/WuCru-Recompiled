@@ -1,0 +1,10 @@
+Season	Chapter	AreaMap	ObjectiveType	AmountToComplete	ObjectType	ObjectSpawnType	SpawnChance	Seed	LevelSequence	ObjectivePatternID	DescriptionStringID	Completed	Event	Localization Key
+3	1	S3A1	Complete	0	None	None	1	5035	-1	None	First Objective	FALSE		OBJECTIVE_S3_C1
+3	2	S3A1	Complete	0	None	None	1	5052	-1	None	Second Objective	FALSE		OBJECTIVE_S3_C2
+3	2	S3A1	Complete	0	None	None	1	5028	-1	None	Second Objective	FALSE		OBJECTIVE_S3_C1
+3	2	S3A1	Complete	0	None	None	1	5042	-1	None	Second Objective	FALSE		OBJECTIVE_S3_C2
+3	3	S3A1	Complete	0	None	None	1	5026	-1	None	Third Objective	FALSE		OBJECTIVE_S3_C2
+3	4	S3A1	Complete	0	None	None	1	5017	-1	None	Fourth Objective	FALSE		OBJECTIVE_S3_C2
+3	5	S3A1	Complete	0	None	None	1	5002	-1	None	Fifth Objective	FALSE		OBJECTIVE_S3_C2
+3	6	S3A1	Complete	0	None	None	1	5000	-1	None	Sixth Objective	FALSE		OBJECTIVE_S3_C2
+3	7	S3A1	Complete	0	None	None	1	-1	-1	None	All Done.	FALSE		OBJECTIVE_S1_C6

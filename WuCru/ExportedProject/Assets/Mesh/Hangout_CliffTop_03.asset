@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4300000
+Mesh:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Hangout_CliffTop_03
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 24
+    topology: 0
+    firstVertex: 0
+    vertexCount: 18
+    localAABB:
+      m_Center: {x: 0, y: -0.5975518, z: 0.0029296987}
+      m_Extent: {x: 0.5, y: 0.097552046, z: 0.0029296875}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes:
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 1
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexBuffer:
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 0
+    m_VertexCount: 0
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 0
+    _typelessdata:
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 54
+      m_Range: 1.1951039
+      m_Start: -0.6951039
+      m_Data: 7c63deb112574ef9ffffaf9c72e5949840fbca29574e195788bdbdc02696d864f7ca29574e595badb4aa70e594827564c706574e99e56b000070e594af9cf2ca29574e8909b4af9c72e594d6deece101574ec937e61d2b71e594d864f7ca29574e99e56b000070e5947185d8db0b6c62595badb4aa70e594d6deece101574e8909b4af9c72e594
+      m_BitSize: 20
+    m_UV:
+      m_NumItems: 36
+      m_Range: 1.151181
+      m_Start: -0.15118104
+      m_Data: 5de9c2bcf50ce919d233c4efdaff7fdfb53d437cd75a05ff65f8ffffffbfef5acf903d43fefff70cf1bbd6950e004057ba306f3d437cd7feffef6af4ffdf77edffffffffbe6b3d43b614b4c309
+      m_BitSize: 17
+    m_Normals:
+      m_NumItems: 36
+      m_Range: 0.039261054
+      m_Start: -0.017888581
+      m_Data: 74747474a99d1cff24e1e65c747400917474a99d7474747424e100911cffe65c7474a99d
+      m_BitSize: 8
+    m_Tangents:
+      m_NumItems: 36
+      m_Range: 1.8817155
+      m_Start: -0.9631961
+      m_Data: fe4bff4dda1bc70eb204b907a7003f0dda1bda1bfd48fe4bb204c90fc70ec60dc60dc60d
+      m_BitSize: 8
+    m_Weights:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 18
+      m_Data: ffff03
+      m_BitSize: 1
+    m_TangentSigns:
+      m_NumItems: 36
+      m_Data: 4001a83f00
+      m_BitSize: 1
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 24
+      m_Data: 2088218818859863084a6ab1e61e8c
+      m_BitSize: 5
+    m_UVInfo: 5
+  m_LocalAABB:
+    m_Center: {x: 0, y: -0.5975518, z: 0.0029296987}
+    m_Extent: {x: 0.5, y: 0.097552046, z: 0.0029296875}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh:
+  m_BakedTriangleCollisionMesh:
+  m_MeshOptimized: 1

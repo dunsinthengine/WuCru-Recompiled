@@ -1,0 +1,9 @@
+Season	Chapter	Part	Background	Overlay	Actor	Mood	Pose	GotoScene	Script_English	Comment	Generated_Key	Key unique?
+3	1	1	TeaFarm		Wu	Neutral			1.		STORY_S1C2P1	YES
+3	2	1	TeaFarm		Wu	Neutral			1.		STORY_S1C2P1	YES
+3	3	1	TeaFarm		Wu	Neutral			1.		STORY_S1C2P1	YES
+3	4	1	TeaFarm		Wu	Neutral			1.		STORY_S1C2P1	YES
+3	5	1	TeaFarm		Wu	Neutral			1.		STORY_S1C2P1	YES
+3	6	1	TeaFarm		Wu	Neutral			1.		STORY_S1C2P1	YES
+3	7	1	TeaFarm		Wu	Neutral			1.		STORY_S1C2P1	YES
+3	8	1	TeaFarm		Wu	Neutral			1.		STORY_S1C2P1	YES

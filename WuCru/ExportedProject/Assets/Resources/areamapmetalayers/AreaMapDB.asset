@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28682163cdc89320e0c9666a4e537f19, type: 3}
+  m_Name: AreaMapDB
+  m_EditorClassIdentifier:
+  areaMaps:
+    keys:
+    - S1A1
+    - S1A2
+    - S1A3
+    - S2A1
+    - S3A1
+    values:
+    - {fileID: 11400000, guid: 95435908929bd1047b6917bb8fb15d9e, type: 2}
+    - {fileID: 11400000, guid: bc60990332390ad4dbf0151a419586eb, type: 2}
+    - {fileID: 11400000, guid: 4d95b82019a4d7848b4bb1aafbe26690, type: 2}
+    - {fileID: 11400000, guid: beaf5f19decedf245b64c58f5252856e, type: 2}
+    - {fileID: 11400000, guid: 233f6ea47feb40246b148b3cad5ca3e9, type: 2}

@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4300000
+Mesh:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: DesertLightningExtra_Decals
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 48
+    topology: 0
+    firstVertex: 0
+    vertexCount: 20
+    localAABB:
+      m_Center: {x: -2.4355845, y: 0.7841694, z: -0.011871994}
+      m_Extent: {x: 0.68721306, y: 0.34360737, z: 1.0790789}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes:
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 1
+  m_IsReadable: 0
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexBuffer:
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 0
+    m_VertexCount: 0
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 0
+    _typelessdata:
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 60
+      m_Range: 4.2505746
+      m_Start: -3.1227977
+      m_Data: 712c659cd6f5a547f240c6690dfa7a240ff4ffffa0af17c752ffff5f5f7a5397629cd6c0f3377529ffff0f3c7f6341619cd6aa56381614ffffaf6a850000609cd638e3080000ffff8f338e712c659cd6a1c51fc752ffff1f5afc240ff4fffff6bb4ff240c6696dbffb5397629cd6d5773f7529ffff5f7df76341619cd6eb143f1614ffffbf4ef10000609cd65e880e0000ffffef85e8
+      m_BitSize: 20
+    m_UV:
+      m_NumItems: 40
+      m_Range: 0.9147335
+      m_Start: 0.039591342
+      m_Data: fef90789a9c70789a9c7fffffef9ffff1f8307891f83ffff464307894643ffff560507895605ffff560500005605f876ab37f876ab370000357c0000357cf8760ebc00000ebcf876fef90000fef9f876
+      m_BitSize: 16
+    m_Normals:
+      m_NumItems: 40
+      m_Range: 0.4006881
+      m_Start: -0.4006881
+      m_Data: e9ffb5ffb5ffe9ff6fff6fff27ff27ff00ff00ffe9ffe9ffb5ffb5ff6fff6fff27ff27ff00ff00ff
+      m_BitSize: 8
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 20
+      m_Data: 00fc0f
+      m_BitSize: 1
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 48
+      m_Data: 20082086084490528829e61c830e4a6a31c51a738d3df7a07b114609e394
+      m_BitSize: 5
+    m_UVInfo: 5
+  m_LocalAABB:
+    m_Center: {x: -2.4355845, y: 0.7841694, z: -0.011871994}
+    m_Extent: {x: 0.68721306, y: 0.34360737, z: 1.0790789}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh:
+  m_BakedTriangleCollisionMesh:
+  m_MeshOptimized: 1

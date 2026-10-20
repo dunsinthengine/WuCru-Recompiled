@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 837f6d5018915db1ea9022011deeb2cd, type: 3}
+  m_Name: Wilderness_0
+  m_EditorClassIdentifier:
+  index: 0
+  themeName:
+  rows: 22
+  cols: 40
+  minStartPointRow: 5
+  maxStartPointRow: 17
+  minEndPointRow: 5
+  maxEndPointRow: 17
+  elevationImpact: 1
+  mainPathType: 0
+  mainPathMinWidth: 3
+  mainPathMaxWidth: 6
+  mainPathMinSegmentLength: 1.5
+  mainPathMaxSegmentLength: 3
+  mainPathMinVarianceFactor: 0.5
+  mainPathMaxVarianceFactor: 0.7
+  minRectangleRooms: 0
+  maxRectangleRooms: 0
+  rectRoomMinRows: 1
+  rectRoomMaxRows: 3
+  rectRoomMinCols: 1
+  rectRoomMaxCols: 4
+  rectRoomPlacement: 0
+  rectRoomMinRowOffset: -2
+  rectRoomMaxRowOffset: 2
+  rectRoomMinColOffset: -2
+  rectRoomMaxColOffset: 2
+  rectRoomElevationVariance: 2
+  rectRoomMinPadding: 0
+  rectRoomMaxPadding: 2
+  rectRoomPaddingProbability: 0.4
+  minEllipseRooms: 1
+  maxEllipseRooms: 2
+  ellipseRoomMinRows: 2
+  ellipseRoomMaxRows: 5
+  ellipseRoomMinCols: 3
+  ellipseRoomMaxCols: 6
+  ellipseRoomPlacement: 0
+  ellipseRoomMinRowOffset: -2
+  ellipseRoomMaxRowOffset: 2
+  ellipseRoomMinColOffset: -2
+  ellipseRoomMaxColOffset: 2
+  ellipseRoomElevationVariance: 2
+  ellipseRoomPadding: 2
+  sideQuestPathType: 0
+  minSideQuests: 1
+  maxSideQuests: 1
+  sideQuestMinWidth: 4
+  sideQuestMaxWidth: 10
+  sideQuestMinSegmentLength: 1.8
+  sideQuestMaxSegmentLength: 2.2
+  sideQuestMinVarianceFactor: 0.5
+  sideQuestMaxVarianceFactor: 0.7
+  sideQuestMinColOffset: -4
+  sideQuestMaxColOffset: 4
+  sideQuestMinEndPointColOffset: -10
+  sideQuestMaxEndPointColOffset: 10
+  treeFactor: 1
+  allowHousePatterns: 1
+  useSquareEndArea: 0
+  allowChokepointsAtEndOfLevel: 0
+  distanceFromEndOfLevelForChokePoints: 11
+  forceSettings: []

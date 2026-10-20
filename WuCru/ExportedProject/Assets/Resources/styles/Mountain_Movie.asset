@@ -1,0 +1,267 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 043b9062f5281e8fcb59a1619ae72f7f, type: 3}
+  m_Name: Mountain_Movie
+  m_EditorClassIdentifier:
+  styleName: AS_MOUNTAIN_HOT
+  previewImage: {fileID: 21300000, guid: c6d7b441c1801464c9b38d6e76036863, type: 2}
+  ambientLight: {r: 0.4, g: 0.4, b: 0.4, a: 1}
+  uvMapSize: 2
+  floorVariance: 0.06
+  sideVariance: 0.25
+  AmbienceAudioEventName: ambience/mountain
+  MusicAudioEventName: music/mountain
+  AudioHierarchyPrefix: Audio_Music_Mountain_
+  ExplorationMusicComponentName: music_mountain_exploration
+  AlertedMusicComponentName: music_mountain_alerted
+  CombatMusicComponentName: music_mountain_combat
+  floorColors:
+  - {r: 0.68690526, g: 0.78443533, b: 0.927, a: 0}
+  - {r: 0.75810987, g: 0.82844734, b: 0.936, a: 0}
+  - {r: 0.85153544, g: 0.887031, b: 0.97, a: 0}
+  - {r: 0.913657, g: 0.93017554, b: 0.992, a: 0}
+  - {r: 0.9563689, g: 0.96595657, b: 1, a: 0}
+  - {r: 0.97075045, g: 0.97950906, b: 1, a: 0}
+  - {r: 0.99264705, g: 0.99558824, b: 1, a: 0}
+  - {r: 1, g: 1, b: 1, a: 0}
+  sideColor: {r: 0.41408953, g: 0.50735295, b: 0.50735295, a: 1}
+  houseFloorColor: {r: 0.7058823, g: 0.56530476, b: 0.3995294, a: 1}
+  groundColor: {r: 0.51, g: 0.36, b: 0.17, a: 1}
+  heightGradient:
+    key0:
+      serializedVersion: 2
+      rgba: 4278190080
+    key1:
+      serializedVersion: 2
+      rgba: 4294967295
+    key2:
+      serializedVersion: 2
+      rgba: 0
+    key3:
+      serializedVersion: 2
+      rgba: 0
+    key4:
+      serializedVersion: 2
+      rgba: 0
+    key5:
+      serializedVersion: 2
+      rgba: 0
+    key6:
+      serializedVersion: 2
+      rgba: 0
+    key7:
+      serializedVersion: 2
+      rgba: 0
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  seededPrefabs: []
+  environmentSettings:
+  - {fileID: 1709254077376921, guid: a591e42364218f14f91c79d276b96c5b, type: 2}
+  - {fileID: 1709254077376921, guid: 2fee39d95a7ba6248850ce19533ebb66, type: 2}
+  - {fileID: 1709254077376921, guid: 420a13007d1ef7346b8f6ae7d4a99c6e, type: 2}
+  hidingSpotPrefab: {fileID: 1709254077376921, guid: 993134882f025e842ba33f6e086cfed0, type: 2}
+  woodChestPrefab: {fileID: 1709254077376921, guid: a02be0ecc82566441a4aa82afe5a3268, type: 2}
+  metalChestPrefab: {fileID: 1709254077376921, guid: 8d95dcea796444d49a75e532bf3788a4, type: 2}
+  goldChestPrefab: {fileID: 1709254077376921, guid: 45c5245cf6357c847b3e65e914319e86, type: 2}
+  lightPrefab: {fileID: 1709254077376921, guid: fac2ca094c5e3424badedd7b3c29527e, type: 2}
+  lightPrefabDay: {fileID: 1709254077376921, guid: ed28a665b92b0ca44af35dcd5e7cd261, type: 2}
+  distractionPrefab: {fileID: 1709254077376921, guid: e889757a59a47044d9d8da50b625b770, type: 2}
+  treePrefabs:
+  - {fileID: 1709254077376921, guid: 1db61afbd5aefd249b574fc88b38eb74, type: 2}
+  - {fileID: 1709254077376921, guid: 213bee863d227d14daf196c5ac7cb77b, type: 2}
+  rectangleRoomHidingSpotPrefab: {fileID: 1709254077376921, guid: d14d9dde290542d4f8615d7c805ab93a, type: 2}
+  trapPrefab: {fileID: 1709254077376921, guid: 37d94f95449f71449aa8da9c6a681d8a, type: 2}
+  keyPrefab: {fileID: 1709254077376921, guid: 95637777e6f2a194db2b8020e76c5b36, type: 2}
+  doorTriggerPrefab: {fileID: 1709254077376921, guid: 3434107b0af28cc41b2803d418f1004d, type: 2}
+  campfirePrefab: {fileID: 1709254077376921, guid: 79ffdc42a40a3a9419e0a14ed5a94d05, type: 2}
+  ladder1Prefab: {fileID: 1709254077376921, guid: 14fd4ec1dcd5e744eb328957e31f754d, type: 2}
+  ladder2Prefab: {fileID: 1709254077376921, guid: 7eccd4f291429db46916a900bc7b982c, type: 2}
+  ladder3Prefab: {fileID: 1709254077376921, guid: 022688be4ed13b3449a1e7df8d682a07, type: 2}
+  ladder4Prefab: {fileID: 1709254077376921, guid: af89fd028460f9740a7317d2e770de6c, type: 2}
+  wallPrefab: {fileID: 1709254077376921, guid: f216bbf057264fa43bf4b77299075cb8, type: 2}
+  wallWithHidingSpotPrefab: {fileID: 1709254077376921, guid: ba92c03e98679394eae29d36fcd6c095, type: 2}
+  enemyDoorPrefab: {fileID: 1709254077376921, guid: 48d4e83b5cc7c9e4cbda64f5d4a8f71f, type: 2}
+  keyDoorPrefab: {fileID: 1709254077376921, guid: 48d4e83b5cc7c9e4cbda64f5d4a8f71f, type: 2}
+  triggeredDoorPrefab: {fileID: 1709254077376921, guid: 48d4e83b5cc7c9e4cbda64f5d4a8f71f, type: 2}
+  altWallPrefab: {fileID: 1709254077376921, guid: cf56c680739eb2640ac2f22da98f4152, type: 2}
+  altKeyDoorPrefab: {fileID: 1709254077376921, guid: 8117206b6d74bd3408606bcdb8e5bbc8, type: 2}
+  crystalShardPrefab: {fileID: 1709254077376921, guid: 7c53920c159bfeb4f9be10d31725504f, type: 2}
+  endLevelObjectPrefab: {fileID: 1709254077376921, guid: 0f57ec169732eb84ab0113c3bd83eec7, type: 2}
+  decorationInserts:
+  - {fileID: 1709254077376921, guid: cd96bdf0f6d9a9a43aed94c3cf2d9342, type: 2}
+  - {fileID: 1709254077376921, guid: 9166d97090f60c04a8b4fa0acb34c8ee, type: 2}
+  - {fileID: 1709254077376921, guid: d657cd33bf134c54481123376dbc99e0, type: 2}
+  - {fileID: 1709254077376921, guid: 49b1011bf85d05248b7f4f9dcb56ad0e, type: 2}
+  - {fileID: 1709254077376921, guid: 165b8a0f8e6ff9f4888b8ce95a257d56, type: 2}
+  - {fileID: 1709254077376921, guid: ae88d01f7a2fc6e488dfe255be6b47e8, type: 2}
+  decorationInsertsFree:
+  - {fileID: 1709254077376921, guid: 5473b1d06a992ff429e5a1fb0e844e38, type: 2}
+  - {fileID: 1709254077376921, guid: 1a67a0fe311b635438aef0f5719192ae, type: 2}
+  - {fileID: 1709254077376921, guid: a61b7f07fdf5d65448fd0fbdbfa18858, type: 2}
+  - {fileID: 1709254077376921, guid: 6bad693550e17194f8d70697fb24e576, type: 2}
+  - {fileID: 1709254077376921, guid: d903a0b58b1ef6c4796f3579afbc6fca, type: 2}
+  - {fileID: 1709254077376921, guid: cf1b65e2b2b97ca40a8a822dc020835a, type: 2}
+  decorationForeground: []
+  backDecorationInsertsFree: []
+  backDecorationInsertsHuge: []
+  decorationAddOns:
+  - {fileID: 1709254077376921, guid: da9095d018a863247ae576369b503640, type: 2}
+  - {fileID: 1709254077376921, guid: 052ceb778a0a1e4458e00971eafa5f04, type: 2}
+  decorationAddOnsWallColor:
+  - {fileID: 1709254077376921, guid: f60431e2c8b11fb48a5f5209852ad25c, type: 2}
+  - {fileID: 1709254077376921, guid: e7d1371554ff7a246989939cb874f9f6, type: 2}
+  decorationAddOnsColored: []
+  decorationHangouts:
+  - {fileID: 1709254077376921, guid: ff4618fa296c69346879d201821c5e64, type: 2}
+  - {fileID: 1709254077376921, guid: 4f26947a104d2b6469cba29cebd81d47, type: 2}
+  - {fileID: 1709254077376921, guid: 2c7534ee1b716464681b6dc8787d9525, type: 2}
+  - {fileID: 1709254077376921, guid: 0a61d9ba86115164e9eeb54816064b81, type: 2}
+  pathEndpointTexture: {fileID: 2800000, guid: 4290b6d08a0bd9146819747e68f67568, type: 3}
+  minElevation: 2
+  maxElevation: 7
+  minElevationHills: 5
+  maxElevationHills: 10
+  minElevationPlateauRows: 3
+  maxElevationPlateauRows: 6
+  minElevationPlateuaCols: 4
+  maxElevationPlateuaCols: 8
+  numDecoInsertHugeItems: 20
+  minTrees: 6
+  maxTrees: 12
+  treeClusterSize: 3
+  treePlacementTopFactor: 0.2
+  floorHeightNoiseFactor: 0.35
+  propScaleVariactionFactor: 0
+  decoFreeOffset: 0.8
+  decoMediumOffset: 0.1
+  decoRestrictedOffset: 0.05
+  decoOutsideScale: 1.25
+  decoBackFreeScaleVariation: 1.2
+  decoBackMediumScaleVariation: 0.1
+  decoBackRestrictedScaleVariation: 0.05
+  decoOtherFreeScaleVariation: 0.25
+  decoOtherMediumScaleVariation: 0.1
+  decoOtherRestrictedScaleVariation: 0.05
+  decoBackFreeProbability: 0.8
+  decoOtherFreeProbability: 0.5
+  decoBackProbability: 0.2
+  decoOtherProbability: 0.3
+  decoAddOnProbability: 0.3
+  decoAddOnDistToPathFactor: 0.25
+  decoAddOnScaleVariation: 0.2
+  decoHangoutProbabilityFront: 0.5
+  decoHangoutProbabilitySide: 0.33
+  decoHangoutProbabilityBack: 0.2
+  decoHugeMinDistToLevelMesh: 7
+  decoHugeMaxDistToLevelmesh: 20
+  decoForegroundProbability: 0.1
+  decoForegroundMinDistToLevelMesh: 6
+  decoForegroundMaxDistToLevelmesh: 8
+  interactableFlash:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0.3
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.1
+      value: 0.3
+      inSlope: 0.0030191273
+      outSlope: -3.112835
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.35
+      value: 0
+      inSlope: -0.00025537072
+      outSlope: -0.00025537072
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  interactableLoop:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.2
+      value: 0.1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.2992016
+      value: 0.08874448
+      inSlope: -0.22378206
+      outSlope: -0.22378206
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.5
+      value: -0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1.2
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 1
+    m_RotationOrder: 0
+  enemyTypeDistributions:
+  - percentage: 25
+    type: 17
+  - percentage: 25
+    type: 18
+  - percentage: 25
+    type: 19
+  - percentage: 25
+    type: 20
+  LevelGroundType: 1
+  WaterTexture: {fileID: 0}
+  WaveTexture: {fileID: 0}
+  WaveSpeed: 0.1
+  WaveHeight: 0.5
+  ShorelineCol: {r: 1, g: 1, b: 1, a: 1}
+  ShorelineWidth: 1
+  groundTiles: []

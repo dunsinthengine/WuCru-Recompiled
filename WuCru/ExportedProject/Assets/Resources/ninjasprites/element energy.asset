@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: element energy
+  m_Rect:
+    serializedVersion: 2
+    x: 36.076122
+    y: 43.076122
+    width: 179.84775
+    height: 177.84775
+  m_Offset: {x: 1.9999965, y: -4.0000014}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 100
+  m_Pivot: {x: 0.5111205, y: 0.47750884}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 834af7c6cceb07f41b856db99ef3d582, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.88, y: 0.44, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.74, y: -0.85, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.88, y: -0.55, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.72, y: 0.85, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.18, y: 0.93, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.13, y: 0.93, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.16, y: 0.92, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.24, y: 0.89, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.3, y: 0.86, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.7, y: 0.82, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.77, y: 0.76, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.85, y: 0.67, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.85, y: -0.85, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.92, y: 0.24, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.92, y: -0.43, z: 0}
+    indices: 0e000d000c000b000c000d0001000c000b000a0001000b00090001000a00080001000900070001000800060001000700050001000600040001000500030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 36.076122
+      y: 43.076122
+      width: 179.84775
+      height: 177.84775
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 100, y: 128, z: 100, w: 128}

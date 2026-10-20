@@ -1,0 +1,240 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 043b9062f5281e8fcb59a1619ae72f7f, type: 3}
+  m_Name: City_HoT
+  m_EditorClassIdentifier:
+  styleName: AS_CITY_HOT
+  previewImage: {fileID: 21300000, guid: 5d7e643a0f5ee2d41a05ee1bfbb84009, type: 2}
+  ambientLight: {r: 0.9852941, g: 0.94292444, b: 0.6013192, a: 1}
+  uvMapSize: 2
+  floorVariance: 0
+  sideVariance: 0
+  AmbienceAudioEventName: ambience/forest
+  MusicAudioEventName: music/forest
+  AudioHierarchyPrefix: Audio_Music_Forest_
+  ExplorationMusicComponentName: music_forest_exploration
+  AlertedMusicComponentName: music_forest_suspicious
+  CombatMusicComponentName: music_forest_combat
+  floorColors:
+  - {r: 0.36764705, g: 0.36764705, b: 0.36764705, a: 0}
+  - {r: 0.8088235, g: 0.8088235, b: 0.8088235, a: 0}
+  - {r: 0.2157223, g: 0.2205882, b: 0.2205882, a: 0}
+  - {r: 0.52205884, g: 0.50511575, b: 0.48367217, a: 0}
+  - {r: 0.47145325, g: 0.5205822, b: 0.58823526, a: 0}
+  sideColor: {r: 0.2635705, g: 0.27908662, b: 0.28676468, a: 1}
+  houseFloorColor: {r: 0.5808823, g: 0.52126235, b: 0.3929498, a: 1}
+  groundColor: {r: 0.1799308, g: 0.18742792, b: 0.19117647, a: 1}
+  heightGradient:
+    key0:
+      serializedVersion: 2
+      rgba: 4278190080
+    key1:
+      serializedVersion: 2
+      rgba: 4294967295
+    key2:
+      serializedVersion: 2
+      rgba: 0
+    key3:
+      serializedVersion: 2
+      rgba: 0
+    key4:
+      serializedVersion: 2
+      rgba: 0
+    key5:
+      serializedVersion: 2
+      rgba: 0
+    key6:
+      serializedVersion: 2
+      rgba: 0
+    key7:
+      serializedVersion: 2
+      rgba: 0
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  seededPrefabs: []
+  environmentSettings:
+  - {fileID: 1709254077376921, guid: 74bed9f24804e114197b8c0060823b3a, type: 2}
+  - {fileID: 1709254077376921, guid: 74bed9f24804e114197b8c0060823b3a, type: 2}
+  hidingSpotPrefab: {fileID: 1709254077376921, guid: 252214df4f647db4ca38be23eed7f614, type: 2}
+  woodChestPrefab: {fileID: 1709254077376921, guid: a02be0ecc82566441a4aa82afe5a3268, type: 2}
+  metalChestPrefab: {fileID: 1709254077376921, guid: 8d95dcea796444d49a75e532bf3788a4, type: 2}
+  goldChestPrefab: {fileID: 1709254077376921, guid: 45c5245cf6357c847b3e65e914319e86, type: 2}
+  lightPrefab: {fileID: 1709254077376921, guid: a42d490322e6982449f74b3cdc64713e, type: 2}
+  lightPrefabDay: {fileID: 1709254077376921, guid: a42d490322e6982449f74b3cdc64713e, type: 2}
+  distractionPrefab: {fileID: 1709254077376921, guid: e889757a59a47044d9d8da50b625b770, type: 2}
+  treePrefabs: []
+  rectangleRoomHidingSpotPrefab: {fileID: 1709254077376921, guid: d14d9dde290542d4f8615d7c805ab93a, type: 2}
+  trapPrefab: {fileID: 1709254077376921, guid: 37d94f95449f71449aa8da9c6a681d8a, type: 2}
+  keyPrefab: {fileID: 1709254077376921, guid: 95637777e6f2a194db2b8020e76c5b36, type: 2}
+  doorTriggerPrefab: {fileID: 1709254077376921, guid: 3434107b0af28cc41b2803d418f1004d, type: 2}
+  campfirePrefab: {fileID: 1709254077376921, guid: 8de309f2cc659b44cb5a30f242b535d8, type: 2}
+  ladder1Prefab: {fileID: 1709254077376921, guid: b4d133ec7daf50743954b2a014d923fa, type: 2}
+  ladder2Prefab: {fileID: 1709254077376921, guid: c60a42fd30fb5134a9b5328d6442fa66, type: 2}
+  ladder3Prefab: {fileID: 1709254077376921, guid: 8897386f86314b945bedc8a3f29a17d9, type: 2}
+  ladder4Prefab: {fileID: 1709254077376921, guid: 6e75aa9d59e616d46b917bab6e587ccd, type: 2}
+  wallPrefab: {fileID: 1709254077376921, guid: 053d50d9640c64b4cbb224dedd620621, type: 2}
+  wallWithHidingSpotPrefab: {fileID: 1709254077376921, guid: 9736a35453eabfb4a9ffeeffd467ed37, type: 2}
+  enemyDoorPrefab: {fileID: 1709254077376921, guid: 942343bd059e4c74085528990de5677a, type: 2}
+  keyDoorPrefab: {fileID: 1709254077376921, guid: 942343bd059e4c74085528990de5677a, type: 2}
+  triggeredDoorPrefab: {fileID: 1709254077376921, guid: 942343bd059e4c74085528990de5677a, type: 2}
+  altWallPrefab: {fileID: 1709254077376921, guid: ab00669fee7448c4fa0ce79652cb1117, type: 2}
+  altKeyDoorPrefab: {fileID: 1709254077376921, guid: c676313ba9cf71a4b98ce82a65eeb6e2, type: 2}
+  crystalShardPrefab: {fileID: 1709254077376921, guid: 7c53920c159bfeb4f9be10d31725504f, type: 2}
+  endLevelObjectPrefab: {fileID: 1709254077376921, guid: 0f57ec169732eb84ab0113c3bd83eec7, type: 2}
+  decorationInserts: []
+  decorationInsertsFree: []
+  decorationForeground: []
+  backDecorationInsertsFree: []
+  backDecorationInsertsHuge: []
+  decorationAddOns: []
+  decorationAddOnsWallColor: []
+  decorationAddOnsColored: []
+  decorationHangouts: []
+  pathEndpointTexture: {fileID: 2800000, guid: 4290b6d08a0bd9146819747e68f67568, type: 3}
+  minElevation: 1
+  maxElevation: 1
+  minElevationHills: 0
+  maxElevationHills: 0
+  minElevationPlateauRows: 0
+  maxElevationPlateauRows: 0
+  minElevationPlateuaCols: 0
+  maxElevationPlateuaCols: 0
+  numDecoInsertHugeItems: 40
+  minTrees: 0
+  maxTrees: 0
+  treeClusterSize: 1
+  treePlacementTopFactor: 1
+  floorHeightNoiseFactor: 0.4
+  propScaleVariactionFactor: 0
+  decoFreeOffset: 0.8
+  decoMediumOffset: 0.1
+  decoRestrictedOffset: 0.05
+  decoOutsideScale: 1.25
+  decoBackFreeScaleVariation: 0.8
+  decoBackMediumScaleVariation: 0.1
+  decoBackRestrictedScaleVariation: 0.05
+  decoOtherFreeScaleVariation: 0.25
+  decoOtherMediumScaleVariation: 0.1
+  decoOtherRestrictedScaleVariation: 0.05
+  decoBackFreeProbability: 0.5
+  decoOtherFreeProbability: 0.3
+  decoBackProbability: 0.2
+  decoOtherProbability: 0.2
+  decoAddOnProbability: 0.9
+  decoAddOnDistToPathFactor: 0.25
+  decoAddOnScaleVariation: 0.2
+  decoHangoutProbabilityFront: 0.5
+  decoHangoutProbabilitySide: 0.33
+  decoHangoutProbabilityBack: 0.2
+  decoHugeMinDistToLevelMesh: 3
+  decoHugeMaxDistToLevelmesh: 10
+  decoForegroundProbability: 0.1
+  decoForegroundMinDistToLevelMesh: 6
+  decoForegroundMaxDistToLevelmesh: 8
+  interactableFlash:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0.3
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.1
+      value: 0.3
+      inSlope: 0.0030191273
+      outSlope: -3.112835
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.35
+      value: 0
+      inSlope: -0.00025537072
+      outSlope: -0.00025537072
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  interactableLoop:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.2
+      value: 0.1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.2992016
+      value: 0.08874448
+      inSlope: -0.22378206
+      outSlope: -0.22378206
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.5
+      value: -0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1.2
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 1
+    m_RotationOrder: 0
+  enemyTypeDistributions:
+  - percentage: 70
+    type: 14
+  - percentage: 20
+    type: 14
+  - percentage: 10
+    type: 14
+  LevelGroundType: 3
+  WaterTexture: {fileID: 2800000, guid: 04550b11478b19d49a04f89604165d4c, type: 3}
+  WaveTexture: {fileID: 2800000, guid: 5021f8be3f9f32e4e8ce241863b4cf01, type: 3}
+  WaveSpeed: 0.06
+  WaveHeight: 0.26
+  ShorelineCol: {r: 0.36764705, g: 0.36764705, b: 0.36764705, a: 1}
+  ShorelineWidth: 1
+  groundTiles:
+  - {fileID: 1709254077376921, guid: d408ffb99c9d4704383d8ca7e9966d75, type: 2}

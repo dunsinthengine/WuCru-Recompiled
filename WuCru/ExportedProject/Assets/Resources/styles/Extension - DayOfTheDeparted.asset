@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db15a6b7fe8f92c066615676119b5d0b, type: 3}
+  m_Name: Extension - DayOfTheDeparted
+  m_EditorClassIdentifier:
+  extensionName: DayOfTheDeparted
+  showExtensionIconOnMap: 1
+  extensionMapIconPrefab: {fileID: 1709254077376921, guid: 9e26038557914b14496a77f1728473f8, type: 2}
+  replaceEnemies: 1
+  replaceEnemiesNodeType: 45
+  replaceEnemiesType: 14
+  replaceCountMin: 1
+  replaceCountMax: 3
+  enemyShouldDrop: 1
+  enemyDropItem: {fileID: 1709254077376921, guid: a105e6689b46feb49955bb384e22f170, type: 2}
+  replaceLampPrefab: {fileID: 1709254077376921, guid: 8226f950c790f0349b36077fd47892dc, type: 2}
+  confirmPlaySoundName: music/departed/enter/level
+  replaceDecorationForeground:
+  - {fileID: 1709254077376921, guid: 229d4a8123a342842bdecf7fc721d0c3, type: 2}
+  - {fileID: 1709254077376921, guid: 35f67e1eade1a2a4ead2cee2119c5eb7, type: 2}
+  previewImage: {fileID: 21300000, guid: 760716fdac9e1f346817671c4c5d179c, type: 2}
+  AmbienceAudioEventName: ambience/mountain
+  MusicAudioEventName: music/departed
+  AudioHierarchyPrefix: Audio_Music_Departed_
+  ExplorationMusicComponentName: music_departed_exploration
+  AlertedMusicComponentName: music_departed_suspicious
+  CombatMusicComponentName: music_departed_fight
+  lightPrefab: {fileID: 1709254077376921, guid: ca482244afe2c2a448eadcf91fda18ef, type: 2}
+  lightPrefabDay: {fileID: 1709254077376921, guid: ca482244afe2c2a448eadcf91fda18ef, type: 2}
+  environmentSettings:
+  - {fileID: 1709254077376921, guid: f4e6cb0a8beccf64b98caed04492762f, type: 2}
+  floorColors:
+  - {r: 0.39215687, g: 0.39215687, b: 0.39215687, a: 1}
+  - {r: 0.47058824, g: 0.47058824, b: 0.47058824, a: 1}
+  - {r: 0.54901963, g: 0.54901963, b: 0.54901963, a: 1}
+  - {r: 0.627451, g: 0.627451, b: 0.627451, a: 1}
+  - {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+  groundColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+  decorationForeground:
+  - {fileID: 1709254077376921, guid: c6ff4c9717298fc43be6822c8d21c59e, type: 2}
+  - {fileID: 1709254077376921, guid: add9ae68e6f7caa449d4c457282a9c1a, type: 2}

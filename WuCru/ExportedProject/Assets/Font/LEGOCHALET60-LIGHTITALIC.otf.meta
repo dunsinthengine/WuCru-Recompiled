@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: 70b360954d78c3a419c23740940eb128
+timeCreated: 1792503615
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  name:
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: LEGO Chalet 60
+  fontNames:
+  - LEGO Chalet 60
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 5fa4670f35119ed4384aa75c0291684b, type: 3}
+  - {fileID: 12800000, guid: 515b2c70992611c43a30f17b906fd7b4, type: 3}
+  - {fileID: 12800000, guid: 27ca618e63a019a4ab7336a6fb8d9fe5, type: 3}
+  - {fileID: 12800000, guid: d2075e797b10c9f478480ef831883a82, type: 3}
+  - {fileID: 12800000, guid: 2951e4d2ed23737479a932448694069a, type: 3}
+  customCharacters:
+  fontRenderingMode: 0
+  output:
+    hasEmptyFontData: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName:
+  assetBundleVariant:

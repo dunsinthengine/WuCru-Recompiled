@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: button_vehicles
+  m_Rect:
+    serializedVersion: 2
+    x: 23.07612
+    y: 0
+    width: 79.92388
+    height: 76
+  m_Offset: {x: -11.538062, y: 0}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 100
+  m_Pivot: {x: 0.35563686, y: 0.5}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 5e1703894746c924d9c375ab6371547c, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.475, y: 0.38, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.515, y: -0.38, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.515, y: 0.38, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.475, y: -0.38, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.195, y: 0.27, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.265, y: -0.13, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.265, y: 0.21, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.195, y: -0.29, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.145, y: 0.27, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.195, y: 0.26, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.235, y: -0.29, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.285, y: 0.17, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.285, y: -0.16, z: 0}
+    indices: 0c000b000a0009000a000b0007000a000900080007000900040007000800050007000400060005000400030000000100020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 23.07612
+      y: 0
+      width: 79.92388
+      height: 76
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 100, y: 51.5, z: 100, w: 38}

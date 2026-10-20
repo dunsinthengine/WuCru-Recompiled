@@ -1,0 +1,8 @@
+Vehicle,ID,SKU,Season,Blueprints,Vehicle Prefab,Garage scale,Traversal scale,Teafarm scale,Type,Missile Type,Missile Prefab,Missile fire rate,Speed_1,Speed_2,Speed_3,Speed_4,Health_1,Health_2,Health_3,Health_4,Damage_1,Damage_2,Damage_3,Damage_4,Sum_1,Sum_2,Sum_3,Sum_4
+Lasha's Bite Cycle,0,9447,1,10,Vehicle_9447,2.5,2.5,0.65,Car,Direct,Missile_BiteBike,0.5,50,60,70,90,30,40,40,40,40,60,70,80,120,160,180,210
+Rock Roader,1,70589,1,10,Vehicle_70589,2,1.8,0.55,Car,Direct,Missile_RockRoader,0.5,30,50,60,70,30,40,60,60,50,60,70,80,110,150,190,210
+Titanium Tumbler,2,70588,1,10,Vehicle_70588,2.5,2.5,0.6,Car,Direct,Missile_TitaniumTumbler,0.5,30,40,50,70,40,60,70,80,30,40,50,60,100,140,170,210
+Ultra Sonic Raider,3,9449,1,10,Vehicle_9449,1.6,1.5,0.25,Car,Direct,Missile_UltraSonicRaider,0.5,20,30,40,50,50,60,80,90,30,50,50,70,100,140,170,210
+RattleCopter,4,9443,1,10,Vehicle_9443,2,1.8,0.6,Plane,Direct,Missile_RattleCopter,0.5,50,60,70,90,30,40,40,40,40,60,70,80,120,160,180,210
+Bike Chase,5,70600,1,10,Vehicle_70600,3,3,0.8,Car,Direct,Missile_RockRoader,0.5,50,60,70,90,30,40,40,40,40,60,70,80,120,160,180,210
+SkyShark,6,70601,1,10,Vehicle_70601,2.2,2.2,0.55,Plane,Direct,Missile_RockRoader,0.5,50,60,70,90,30,40,40,40,40,60,70,80,120,160,180,210

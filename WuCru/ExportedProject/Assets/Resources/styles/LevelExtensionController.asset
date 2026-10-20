@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baa23fccb50b691abbae206bb31d9f2b, type: 3}
+  m_Name: LevelExtensionController
+  m_EditorClassIdentifier:
+  extensionSettings:
+  - name: DayOfTheDeparted
+    mapSeedLists:
+    - mapname: S1A1
+      seeds: 13040000020400000404000010040000150400002e0400003204000006040000f40300001f040000eb030000
+    - mapname: S1A2
+      seeds: f60700000f0800001c0800000a080000ec0700001e0800000308000011080000f80700000d080000fc070000
+    - mapname: S1A3
+      seeds: f80b0000fc0b0000050c0000e00b0000f60b0000e40b0000c10b0000d60b0000ff0b0000e70b0000c30b0000
+    lockedUntilLevelsPlayed: 3
+    total: 20
+    levelExtension: {fileID: 11400000, guid: 4acbbf90620b6eb4ba8a7b6dde16f85b, type: 2}

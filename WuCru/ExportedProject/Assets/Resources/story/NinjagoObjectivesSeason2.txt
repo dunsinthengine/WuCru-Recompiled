@@ -1,0 +1,7 @@
+Season	Chapter	AreaMap	ObjectiveType	AmountToComplete	ObjectType	ObjectSpawnType	SpawnChance	Seed	LevelSequence	ObjectivePatternID	DescriptionStringID	Completed	Event	Localization Key
+2	1	S2A1	Complete	0	None	None	1	4009	-1	None	Find Blade 1	FALSE		OBJECTIVE_S2_C1
+2	2	S2A1	Complete	0	None	None	1	4057	-1	None	Find Blade 2	FALSE		OBJECTIVE_S2_C2
+2	3	S2A1	Complete	0	None	None	1	4070	-1	None	Find Blade 3	FALSE		OBJECTIVE_S2_C3
+2	4	S2A1	Complete	0	None	None	1	4028	-1	None	Find Blade 4	FALSE		OBJECTIVE_S2_C4
+2	5	S2A1	Complete	0	None	None	1	4022	-1	None	Defeat Krux	FALSE		OBJECTIVE_S2_C5
+2	6	S2A1	Complete	0	None	None	1	-1	-1	None	All Done.	FALSE		OBJECTIVE_S1_C6

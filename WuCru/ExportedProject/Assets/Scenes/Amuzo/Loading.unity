@@ -1,0 +1,874 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!104 &19
+RenderSettings:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
+--- !u!157 &20
+LightmapSettings:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 4
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_DirectLightInLightProbes: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+  m_LightingDataAsset: {fileID: 112000000, guid: c298423a12b2fe240b0ba66b008aeb18, type: 2}
+  m_RuntimeCPUUsage: 25
+--- !u!1 &3
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 11}
+  - component: {fileID: 25}
+  m_Layer: 0
+  m_Name: UnlockableVehicleParts
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &4
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 12}
+  - component: {fileID: 29}
+  m_Layer: 0
+  m_Name: FabricSpringboard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &5
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 13}
+  - component: {fileID: 22}
+  - component: {fileID: 21}
+  m_Layer: 0
+  m_Name: SceneLoader (Loading scene)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &6
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 14}
+  - component: {fileID: 23}
+  m_Layer: 0
+  m_Name: GameSpringboard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &7
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 15}
+  - component: {fileID: 24}
+  m_Layer: 0
+  m_Name: ScreenLoader (Loading scene)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &8
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 16}
+  - component: {fileID: 26}
+  m_Layer: 0
+  m_Name: GlobalStyle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &9
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 17}
+  - component: {fileID: 27}
+  - component: {fileID: 28}
+  m_Layer: 0
+  m_Name: LocalPushNotificationFacade
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &10
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 18}
+  - component: {fileID: 30}
+  m_Layer: 0
+  m_Name: UnlockableMinifigParts
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &11
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &12
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 4}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 15.670148, y: 7.8432693, z: 8.157438}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &13
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 5}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &14
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 6}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.5591115, y: -1.4648509, z: 16.180174}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &15
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 7}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &16
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 8}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &17
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 9}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &18
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 10}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.736456, y: -0.30427343, z: 16.217762}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &21
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 5}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb6576887a19304496dd1e5bc5c757bf, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _initDepends:
+  - {fileID: 23}
+  _targetScript: {fileID: 22}
+--- !u!114 &22
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 5}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96b62566c0c9277d28b455a0e2fda38d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  levelName: LegoSdkInit
+  assetbundle: 0
+  forceLoadIfAlreadyLoaded: 0
+  onLoadComplete:
+    onlyOnce: 0
+    receivers: []
+  loadAdditively: 0
+  loadAsync: 1
+  _isClearResourcesOnLoadComplete: 0
+  _dontDestroyOnLoad: 1
+--- !u!114 &23
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 6}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3387918dba9c59d78c1e227de93b547, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _initDepends:
+  - {fileID: 24}
+--- !u!114 &24
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 7}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: badfb094ea32e6613cb0941d48d837f6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _initDepends: []
+  initialiseGameSceneAfterScreenLoad: 0
+  dontDestroyOnLoad: 1
+  emulateLowMemInEditor: 0
+  screensToLoad:
+  - screenBase: {fileID: 114918264173551851, guid: 8d1a381b71dfd074c86c7d16de3fbeac, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114689224686120706, guid: d608adb17095cd348bd2621d4a71f833, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114026196548002408, guid: 6f8ba7940d818524c8ee431fc9d2cb1a, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114703437598541787, guid: efccd2e154123ca41a8ee0386485f3b6, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114099118695303065, guid: f320d9923afc6784f990144db2d25c68, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114099118695303065, guid: 5f2a38796eb2d6d4f81d212c363b8d9e, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114099118695303065, guid: 1c7e037f885ace34bb0aed4f540f0eee, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114099118695303065, guid: 681da738e53cae446b5ee942b1550530, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114884547391421755, guid: 511de25e9275aa94081d820e616add11, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114518489005915545, guid: 8e1bde18bcf537e43a0d33ae1c0b2179, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114651560128206891, guid: a06a5b80ace125746a02eb31bacf1e8b, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114881464258438879, guid: 43b60931d3cd91745857545cb5a21ab1, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114695600491528212, guid: bca6f1444057b254a8df22af4f88ffae, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114450889307774998, guid: 6831ee5ae992bfa46952d4740a215396, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114693329660128220, guid: 096c787b299a26f408cf54e628595314, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114808113985169905, guid: d121526d0e2e5834d80ae944cfdfb12f, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114099118695303065, guid: a6aaa36b68fdd1a4c9abf87800ceddea, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114099118695303065, guid: bcaa0673c1228e3488059ef5f05c6392, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114099118695303065, guid: dbb292a77005808458fd5432a641bbfa, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114099118695303065, guid: 27cf3fa9afc2d734eac9c2fcbd251904, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114256069497284392, guid: 6873c9c13ffa36c41be504bf68154369, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114901155395665742, guid: 3f810931a251a404b948c7de7618867e, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114089843903986396, guid: f6a9c9793fa681344b7787e25e8776ef, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114709867586078768, guid: 7b46c4e6b42e2f249ba75f40e66ca681, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114017697238300914, guid: 6e6c73f2f26c0764a878fbff70ea8ff3, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114099118695303065, guid: 37641c5650d6d354eb438364b8d1d9d8, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114099118695303065, guid: 4193016ac433afa468765ce7347164ef, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114733206282342372, guid: ddcd5c4702a942f45bc0050f74dd6199, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114099118695303065, guid: a2dc4b79658a5fd4ea99d75b4638e702, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114099118695303065, guid: dc8173e958094054a8fb9c93fc79264f, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114099118695303065, guid: b400cfacfc9f4234991d32a6b14a99a9, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114000955326284023, guid: 5428c7be747ca8a45b10adf9464649a4, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114587397909062814, guid: dba51010a026ebc4098ba4e62f6a31c0, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114450889307774998, guid: 18a5797064faf6b48a9fa234bf130b5d, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114841364053301648, guid: fe3aec93292746a4fa449fc51cda8d22, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114733206282342372, guid: 7d8f8a3d8a72aee4ca39cbdb06f37b9b, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114066778049879928, guid: 99e1b289477200043a8879ceb207791f, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114220653531496868, guid: ea936f52834a82348a68b990f36c7761, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114632457200066912, guid: 7a3ca6b71664b41438e236b0451d3e5b, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114977153420339851, guid: 582764a79e31501409b3129228d55c1a, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114089843903986396, guid: fc9d3deb0b8bb224eac2c13bd7857d33, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114045458335737618, guid: 6e333a3296def614a9e8c3426582c3e8, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114977153420339851, guid: 5ef4c7550fbbd7549914b66a1f5c6508, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114313026266067498, guid: d5d716cd3bf959f49bc9d46ba62e9281, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114969106005120503, guid: 4be00c3e95c684440b36becc8d33c992, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114256069497284392, guid: 3aa5d60aa2748274e8c4af6bae781dcf, type: 2}
+    immediatelyShowOnLoad: 0
+  showScreens: 1
+--- !u!114 &25
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9190cd352d514979d89d8b5abe63d9b0, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _vehicleDefinitions:
+  - _name: Lasha's Bite Cycle
+    _vehicleNumber: 0
+    _season: 1
+    _parts:
+    - _partPrefab: {fileID: 0}
+      _partType: 0
+      _validSeedLocation: 1000
+      _collected: 0
+      _viewed: 0
+    - _partPrefab: {fileID: 0}
+      _partType: 1
+      _validSeedLocation: 1027
+      _collected: 0
+      _viewed: 0
+    - _partPrefab: {fileID: 0}
+      _partType: 2
+      _validSeedLocation: 1030
+      _collected: 0
+      _viewed: 0
+  - _name: Rock Roader
+    _vehicleNumber: 1
+    _season: 1
+    _parts:
+    - _partPrefab: {fileID: 0}
+      _partType: 0
+      _validSeedLocation: 1045
+      _collected: 0
+      _viewed: 0
+    - _partPrefab: {fileID: 0}
+      _partType: 1
+      _validSeedLocation: 1071
+      _collected: 0
+      _viewed: 0
+    - _partPrefab: {fileID: 0}
+      _partType: 2
+      _validSeedLocation: 1066
+      _collected: 0
+      _viewed: 0
+  - _name: Titanium Tumbler
+    _vehicleNumber: 2
+    _season: 1
+    _parts:
+    - _partPrefab: {fileID: 0}
+      _partType: 0
+      _validSeedLocation: 2028
+      _collected: 0
+      _viewed: 0
+    - _partPrefab: {fileID: 0}
+      _partType: 1
+      _validSeedLocation: 2043
+      _collected: 0
+      _viewed: 0
+    - _partPrefab: {fileID: 0}
+      _partType: 2
+      _validSeedLocation: 2054
+      _collected: 0
+      _viewed: 0
+  - _name: Ultra Sonic Raider
+    _vehicleNumber: 3
+    _season: 1
+    _parts:
+    - _partPrefab: {fileID: 0}
+      _partType: 0
+      _validSeedLocation: 2072
+      _collected: 0
+      _viewed: 0
+    - _partPrefab: {fileID: 0}
+      _partType: 1
+      _validSeedLocation: 2075
+      _collected: 0
+      _viewed: 0
+    - _partPrefab: {fileID: 0}
+      _partType: 2
+      _validSeedLocation: 2057
+      _collected: 0
+      _viewed: 0
+  - _name: RattleCopter
+    _vehicleNumber: 4
+    _season: 1
+    _parts:
+    - _partPrefab: {fileID: 0}
+      _partType: 0
+      _validSeedLocation: 3008
+      _collected: 0
+      _viewed: 0
+    - _partPrefab: {fileID: 0}
+      _partType: 1
+      _validSeedLocation: 3021
+      _collected: 0
+      _viewed: 0
+    - _partPrefab: {fileID: 0}
+      _partType: 2
+      _validSeedLocation: 3031
+      _collected: 0
+      _viewed: 0
+  - _name: Bike Chase
+    _vehicleNumber: 5
+    _season: 1
+    _parts:
+    - _partPrefab: {fileID: 0}
+      _partType: 0
+      _validSeedLocation: 3055
+      _collected: 0
+      _viewed: 0
+    - _partPrefab: {fileID: 0}
+      _partType: 1
+      _validSeedLocation: 3077
+      _collected: 0
+      _viewed: 0
+    - _partPrefab: {fileID: 0}
+      _partType: 2
+      _validSeedLocation: 3064
+      _collected: 0
+      _viewed: 0
+  - _name: SkyShark
+    _vehicleNumber: 6
+    _season: 1
+    _parts:
+    - _partPrefab: {fileID: 0}
+      _partType: 0
+      _validSeedLocation: 3036
+      _collected: 0
+      _viewed: 0
+    - _partPrefab: {fileID: 0}
+      _partType: 1
+      _validSeedLocation: 3032
+      _collected: 0
+      _viewed: 0
+    - _partPrefab: {fileID: 0}
+      _partType: 2
+      _validSeedLocation: 3051
+      _collected: 0
+      _viewed: 0
+  - _name: SamuraiVXL
+    _vehicleNumber: 0
+    _season: 2
+    _parts:
+    - _partPrefab: {fileID: 0}
+      _partType: 0
+      _validSeedLocation: 4010
+      _collected: 0
+      _viewed: 0
+    - _partPrefab: {fileID: 0}
+      _partType: 1
+      _validSeedLocation: 4012
+      _collected: 0
+      _viewed: 0
+    - _partPrefab: {fileID: 0}
+      _partType: 2
+      _validSeedLocation: 4016
+      _collected: 0
+      _viewed: 0
+  - _name: DesertLightning_Extra
+    _vehicleNumber: 1
+    _season: 2
+    _parts:
+    - _partPrefab: {fileID: 0}
+      _partType: 0
+      _validSeedLocation: 4035
+      _collected: 0
+      _viewed: 0
+    - _partPrefab: {fileID: 0}
+      _partType: 1
+      _validSeedLocation: 4046
+      _collected: 0
+      _viewed: 0
+    - _partPrefab: {fileID: 0}
+      _partType: 2
+      _validSeedLocation: 4050
+      _collected: 0
+      _viewed: 0
+  - _name: DesertLightning
+    _vehicleNumber: 2
+    _season: 2
+    _parts:
+    - _partPrefab: {fileID: 0}
+      _partType: 0
+      _validSeedLocation: 4056
+      _collected: 0
+      _viewed: 0
+    - _partPrefab: {fileID: 0}
+      _partType: 1
+      _validSeedLocation: 4062
+      _collected: 0
+      _viewed: 0
+    - _partPrefab: {fileID: 0}
+      _partType: 2
+      _validSeedLocation: 4025
+      _collected: 0
+      _viewed: 0
+  - _name: Kais Mech
+    _vehicleNumber: 0
+    _season: 3
+    _parts:
+    - _partPrefab: {fileID: 0}
+      _partType: 0
+      _validSeedLocation: 5029
+      _collected: 0
+      _viewed: 0
+    - _partPrefab: {fileID: 0}
+      _partType: 1
+      _validSeedLocation: 5040
+      _collected: 0
+      _viewed: 0
+    - _partPrefab: {fileID: 0}
+      _partType: 2
+      _validSeedLocation: 5066
+      _collected: 0
+      _viewed: 0
+  - _name: Lloyd's green dragon
+    _vehicleNumber: 1
+    _season: 3
+    _parts:
+    - _partPrefab: {fileID: 0}
+      _partType: 0
+      _validSeedLocation: 5054
+      _collected: 0
+      _viewed: 0
+    - _partPrefab: {fileID: 0}
+      _partType: 1
+      _validSeedLocation: 5008
+      _collected: 0
+      _viewed: 0
+    - _partPrefab: {fileID: 0}
+      _partType: 2
+      _validSeedLocation: 5044
+      _collected: 0
+      _viewed: 0
+--- !u!114 &26
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 8}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97d5b7edafba03bcd84a69aa453e554c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _KaiNameTextColorMain: {r: 0.8980393, g: 0.29803923, b: 0.054901965, a: 1}
+  _JayNameTextColorMain: {r: 0.91372555, g: 0.2901961, b: 0.09411766, a: 1}
+  _ColeNameTextColorMain: {r: 0.909804, g: 0.2901961, b: 0.098039225, a: 1}
+  _ZaneNameTextColorMain: {r: 0.9058824, g: 0.28235295, b: 0.058823533, a: 1}
+  _NyaNameTextColorMain: {r: 0.9058824, g: 0.2901961, b: 0.09411766, a: 1}
+  _LloydNameTextColorMain: {r: 0.9058824, g: 0.2901961, b: 0.09411766, a: 1}
+--- !u!114 &27
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 9}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84f14761d7f7190b973feb47ddf0cab4, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _dontDestroyOnLoad: 1
+  _isAutoInitialise: 1
+  _allowBeingDestroyed: 0
+--- !u!114 &28
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 9}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb6576887a19304496dd1e5bc5c757bf, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _initDepends:
+  - {fileID: 21}
+  _targetScript: {fileID: 27}
+--- !u!114 &29
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 4}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bba4c85eca69c4c549dadd85cbf9f7b3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _fabricManagerPrefabPath: Prefabs/Audio/Audio
+--- !u!114 &30
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 10}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e29342cc9664684abd9ef95e7506ba74, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _validSeedLocations: eb0300001f0400000804000030040000f7070000160800000c080000f8070000bb0b0000cf0b0000d20b0000f40b0000e40f0000c90f0000b30f0000bd0f0000a0130000d0130000c3130000ce130000
+  _partDefinitions:
+  - _associatedPaths:
+    - Equipment/helmet_wu
+    _partType: 3
+    _helmetHidesHair: 1
+    _priorityUnlock: 0
+  - _associatedPaths:
+    - 70620_Police_Torso
+    - Empty_Pelvis
+    - Empty_Legs
+    _partType: 2
+    _helmetHidesHair: 0
+    _priorityUnlock: 0
+  - _associatedPaths:
+    - 70751_Bearded_Face
+    _partType: 0
+    _helmetHidesHair: 0
+    _priorityUnlock: 0
+  - _associatedPaths:
+    - 70732_Nya_Torso
+    - 70732_Nya_Pelvis
+    - 70732_Nya_Legs
+    _partType: 2
+    _helmetHidesHair: 0
+    _priorityUnlock: 0
+  - _associatedPaths:
+    - Equipment/helmet_tannin
+    _partType: 3
+    _helmetHidesHair: 1
+    _priorityUnlock: 0
+  - _associatedPaths:
+    - Equipment/helmet_krux_acronix
+    _partType: 3
+    _helmetHidesHair: 1
+    _priorityUnlock: 0
+  - _associatedPaths:
+    - Equipment/Hair_70756
+    _partType: 1
+    _helmetHidesHair: 0
+    _priorityUnlock: 0
+  - _associatedPaths:
+    - Equipment/Hair_70627
+    _partType: 1
+    _helmetHidesHair: 0
+    _priorityUnlock: 0
+  - _associatedPaths:
+    - 70751_Claire_Torso
+    - Empty_Pelvis
+    - Empty_Legs
+    _partType: 2
+    _helmetHidesHair: 0
+    _priorityUnlock: 0
+  - _associatedPaths:
+    - 70751_Old_Face
+    _partType: 0
+    _helmetHidesHair: 0
+    _priorityUnlock: 0
+  - _associatedPaths:
+    - 70602_Pirate_Face
+    _partType: 0
+    _helmetHidesHair: 0
+    _priorityUnlock: 0
+  - _associatedPaths:
+    - Equipment/Helmet_Monkey
+    _partType: 3
+    _helmetHidesHair: 1
+    _priorityUnlock: 0
+  - _associatedPaths:
+    - Equipment/Helmet_crab
+    _partType: 3
+    _helmetHidesHair: 1
+    _priorityUnlock: 0
+  - _associatedPaths:
+    - Equipment/Helmet_Chicken
+    _partType: 3
+    _helmetHidesHair: 1
+    _priorityUnlock: 1
+  - _associatedPaths:
+    - 70621_VermillionWarrior3_Face
+    _partType: 0
+    _helmetHidesHair: 0
+    _priorityUnlock: 0
+  - _associatedPaths:
+    - 70621_VermillionWarrior2_Torso
+    - 70621_VermillionWarrior2_Pelivis
+    - 70621_VermillionWarrior2_Legs
+    _partType: 2
+    _helmetHidesHair: 1
+    _priorityUnlock: 0
+  - _associatedPaths:
+    - SharkArmy/SharkEnemy01_helmet
+    _partType: 3
+    _helmetHidesHair: 1
+    _priorityUnlock: 0
+  - _associatedPaths:
+    - SharkArmy/SharkEnemy02_helmet
+    _partType: 3
+    _helmetHidesHair: 1
+    _priorityUnlock: 0
+  - _associatedPaths:
+    - SharkArmy/SharkEnemy03_helmet
+    _partType: 3
+    _helmetHidesHair: 1
+    _priorityUnlock: 0
+  - _associatedPaths:
+    - SharkArmy/SharkEnemy04_helmet
+    _partType: 3
+    _helmetHidesHair: 1
+    _priorityUnlock: 0

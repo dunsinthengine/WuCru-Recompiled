@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad1cc9f729dce07168011756084a5a73, type: 3}
+  m_Name: StickerPack
+  m_EditorClassIdentifier:
+  title: LEGO Ninjago WU-CRU Stickers
+  bundleId: stickers
+  Signing:
+    AutomaticSigning: 0
+    ProvisioningProfile: 934966dc-5202-4463-ab59-4ce549ee5a7c
+    ProvisioningProfileSpecifier:
+  Icons:
+    appStore: {fileID: 2800000, guid: 444ca6606d6fdea4a94e33dc177bf742, type: 3}
+    Settings:
+      BackgroundColor: {r: 0.6509804, g: 0.03137255, b: 0.047058824, a: 1}
+      FillPercentage: 100
+      FilterMode: 2
+      ScaleMode: 2
+    Override: 0
+    messagesiPadPro2: {fileID: 0}
+    messagesiPad2: {fileID: 0}
+    messagesiPhone2: {fileID: 0}
+    messagesiPhone3: {fileID: 0}
+    messagesSmall2: {fileID: 0}
+    messagesSmall3: {fileID: 0}
+    messages2: {fileID: 0}
+    messages3: {fileID: 0}
+    iPhoneSettings2: {fileID: 0}
+    iPhoneSettings3: {fileID: 0}
+    iPadSettings2: {fileID: 0}
+  Stickers:
+  - {fileID: 11400000, guid: 7020b4c0f4e66d94297d2722eab16b79, type: 2}
+  - {fileID: 11400000, guid: c5a90db1356531e42b8ae7def84911f8, type: 2}
+  - {fileID: 11400000, guid: 5fa6b6578b5956a46a774ce65976e53e, type: 2}
+  - {fileID: 11400000, guid: df4bc85af7fafd64d974b084b687c386, type: 2}
+  - {fileID: 11400000, guid: 64bf41670b4c33a4bbce751097090690, type: 2}
+  - {fileID: 11400000, guid: 7b1512a9d4cfb96409f90fb67bcdf2d2, type: 2}
+  - {fileID: 11400000, guid: 09d30ee3f1aa43345ab0eaa8ff85bbdb, type: 2}
+  - {fileID: 11400000, guid: 0998928ed74659043beeb036369aa11f, type: 2}
+  - {fileID: 11400000, guid: 641adf55c73ca0c4fb2efd104ae07cc3, type: 2}
+  - {fileID: 11400000, guid: 325011ff36bad974fa7ef0898cb89f86, type: 2}

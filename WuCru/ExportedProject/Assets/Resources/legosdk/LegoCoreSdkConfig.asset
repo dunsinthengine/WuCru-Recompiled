@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 241e87e997e940b3f98ee66cca63ced1, type: 3}
+  m_Name: LegoCoreSdkConfig
+  m_EditorClassIdentifier:
+  ApplicationConfigurationUrl: https://lego.com/go/21/1
+  SupportedLocales:
+  - cs-cz
+  - da-dk
+  - de-de
+  - en-gb
+  - en-us
+  - es-ar
+  - es-es
+  - fi-fi
+  - fr-fr
+  - hu-hu
+  - it-it
+  - ja-jp
+  - ko-kr
+  - nb-no
+  - nl-nl
+  - pl-pl
+  - ru-ru
+  - sv-se
+  - zh-cn
+  FallbackLocale: en-us
+  AlertView: {fileID: 0}
+  PolicyView: {fileID: 0}
+  ParentalGateView: {fileID: 0}
+  LogLevel: 0

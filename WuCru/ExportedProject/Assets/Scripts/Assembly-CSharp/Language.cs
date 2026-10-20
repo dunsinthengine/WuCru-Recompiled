@@ -1,0 +1,27 @@
+public enum Language
+{
+	US = 0,
+	GB = 1,
+	DE = 2,
+	JP = 3,
+	NL = 4,
+	KR = 5,
+	DK = 6,
+	FI = 7,
+	SE = 8,
+	NO = 9,
+	FR = 10,
+	PL = 11,
+	IT = 12,
+	CZ = 13,
+	HU = 14,
+	ES = 15,
+	AR = 16,
+	CN = 17,
+	RU = 18,
+	UK = 19,
+	TR = 20,
+	HR = 21,
+	AE = 22,
+	RO = 23
+}

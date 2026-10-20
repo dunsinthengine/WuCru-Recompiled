@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.unity3d.player" android:installLocation="preferExternal" android:theme="@android:style/Theme.NoTitleBar" android:versionCode="?" android:versionName="?">
+	<supports-screens android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="true" android:anyDensity="true" />
+	<uses-sdk android:minSdkVersion="?" />
+
+	<application android:icon="@drawable/app_icon" android:label="@string/app_name" android:isGame="true" android:debuggable="false">
+		<activity android:name="com.unity3d.player.UnityPlayerActivity" android:label="@string/app_name" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen">
+			<!--the following will be added by Anvil as required
+			<action android:name="android.intent.action.MAIN" />
+			<category android:name="android.intent.category.LAUNCHER" />
+			-->
+			<meta-data android:name="android.app.lib_name" android:value="unity" />
+			<!--the following will be added by Anvil as required
+			<meta-data android:name="unityplayer.ForwardNativeEventsToDalvik" android:value="true" />
+			-->
+		<intent-filter>
+			<category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+		</intent-filter>
+		</activity>
+
+		<!--obb-related stuff-->
+		<!--historically, we haven't included the following lines, but they seem to be related to the UnityAlarmReceiver line
+		<activity android:name="com.unity3d.plugin.downloader.UnityDownloaderActivity" />
+		<service android:name="com.unity3d.plugin.downloader.UnityDownloaderService" />
+		-->
+		<receiver android:name="com.unity3d.plugin.downloader.UnityAlarmReceiver" />
+    
+	</application>
+
+</manifest>
+

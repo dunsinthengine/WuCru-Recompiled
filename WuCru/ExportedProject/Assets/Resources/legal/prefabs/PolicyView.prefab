@@ -1,0 +1,231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: PolicyView
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1762965423, guid: 6c8e168389b232d7cc78427b51f93153, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  OverrideScaleFactor: 0
+  OverridenScaleFactor: 2
+  ButtonLabelStyle:
+    Font: {fileID: 12800000, guid: fe18d45b0f07f774e959aafb40a1dedf, type: 3}
+    Size: 12
+    Owner: {fileID: 114724804207875695}
+  ButtonBackground:
+    texture: {fileID: 2800000, guid: 6ae02a2768338f649ba13bf25ca56286, type: 3}
+    retina: 1
+    border:
+      m_Left: 6
+      m_Right: 6
+      m_Top: 6
+      m_Bottom: 6
+    overflow:
+      m_Left: 4
+      m_Right: 5
+      m_Top: 4
+      m_Bottom: 7
+    Owner: {fileID: 114724804207875695}
+  ButtonBackgroundSelected:
+    texture: {fileID: 2800000, guid: b12554b3d8654b8458cf477d1a30432e, type: 3}
+    retina: 0
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    Owner: {fileID: 114724804207875695}
+  ButtonHighlightBackground:
+    texture: {fileID: 2800000, guid: 79695838d3fa09341a5fde0ce78680bc, type: 3}
+    retina: 0
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    Owner: {fileID: 114724804207875695}
+  Background:
+    texture: {fileID: 2800000, guid: e56e4102ee1e2954abdde4e4d37be8fc, type: 3}
+    retina: 0
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    Owner: {fileID: 114724804207875695}
+  LEGOLogo:
+    texture: {fileID: 2800000, guid: 89715090951c03a49a1013a2743b67aa, type: 3}
+    retina: 1
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    Owner: {fileID: 114724804207875695}
+  TitleStyle:
+    Font: {fileID: 12800000, guid: b4c6650a85aeaed47a2f8a28af9a69e8, type: 3}
+    Size: 15
+    Owner: {fileID: 114724804207875695}
+  CloseButton:
+    texture: {fileID: 2800000, guid: 531f8ae688f51544287bcb11741555d0, type: 3}
+    retina: 1
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    Owner: {fileID: 114724804207875695}
+  BackButton:
+    texture: {fileID: 2800000, guid: 5cbee7f49588b4a4981c527ee7baad97, type: 3}
+    retina: 2
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    Owner: {fileID: 114724804207875695}
+  PoliceMan:
+    texture: {fileID: 2800000, guid: e5b01d58161b6ec40a4d7f5e6d4b7b8e, type: 3}
+    retina: 1
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    Owner: {fileID: 114724804207875695}
+  LastUpdatedStyle:
+    Font: {fileID: 12800000, guid: fe18d45b0f07f774e959aafb40a1dedf, type: 3}
+    Size: 15
+    Owner: {fileID: 114724804207875695}
+  PolicyHeadlineStyle:
+    Font: {fileID: 12800000, guid: b4c6650a85aeaed47a2f8a28af9a69e8, type: 3}
+    Size: 12
+    Owner: {fileID: 114724804207875695}
+  PolicyBodyStyle:
+    Font: {fileID: 12800000, guid: fe18d45b0f07f774e959aafb40a1dedf, type: 3}
+    Size: 10
+    Owner: {fileID: 114724804207875695}
+  SupportedLocalesInspector:
+  - Locale: cs_CZ
+    Flag: {fileID: 2800000, guid: 7891f1952a0881a4da2cc4d3fa18e665, type: 3}
+  - Locale: da_DK
+    Flag: {fileID: 2800000, guid: 8af33b7358392644ebd0a195cc5d38fc, type: 3}
+  - Locale: de_DE
+    Flag: {fileID: 2800000, guid: 51a28df5301c3d14aabda30add65a1d5, type: 3}
+  - Locale: en_GB
+    Flag: {fileID: 2800000, guid: a122d5c8eb1681c4380f4a51915dde3e, type: 3}
+  - Locale: en_US
+    Flag: {fileID: 2800000, guid: 0607370693e96e34cb60a9b69586e9fb, type: 3}
+  - Locale: es_AR
+    Flag: {fileID: 2800000, guid: 70b4e43e74c10424285c1a2a61f4b4e8, type: 3}
+  - Locale: es_ES
+    Flag: {fileID: 2800000, guid: db996d72a0284fe4fbd0e02bf95232b2, type: 3}
+  - Locale: fi_FI
+    Flag: {fileID: 2800000, guid: ec3b81cec03702548927efb37afce562, type: 3}
+  - Locale: fr_BE
+    Flag: {fileID: 2800000, guid: f304cdd6495177f498df8136c716d56e, type: 3}
+  - Locale: fr_FR
+    Flag: {fileID: 2800000, guid: 3a702b9ee744fb843bd341285bd54bbf, type: 3}
+  - Locale: hu_HU
+    Flag: {fileID: 2800000, guid: 3db753928b9e1c046ad1cb742d3dd2bf, type: 3}
+  - Locale: it_IT
+    Flag: {fileID: 2800000, guid: 2c4e6092dc230a44d96d2d96ef79e600, type: 3}
+  - Locale: ja_JP
+    Flag: {fileID: 2800000, guid: 01ba96143b02f5a41890bc1bd0130ac9, type: 3}
+  - Locale: ko_KR
+    Flag: {fileID: 2800000, guid: dd30cc41542570142bf365727da9d09e, type: 3}
+  - Locale: nb_NO
+    Flag: {fileID: 2800000, guid: 55e1dc30977e92f47988818063c50e89, type: 3}
+  - Locale: nl_BE
+    Flag: {fileID: 2800000, guid: 0fc632a44ded611499bfd7fc45e69d30, type: 3}
+  - Locale: nl_NL
+    Flag: {fileID: 2800000, guid: 239dd00d1da4b564fa1c985e652a564a, type: 3}
+  - Locale: pl_PL
+    Flag: {fileID: 2800000, guid: 2f3cd2da6a2aee4498bfa3a4a2246b85, type: 3}
+  - Locale: ru_RU
+    Flag: {fileID: 2800000, guid: 49ed682e5df22c34aa359e44e44d90c8, type: 3}
+  - Locale: sv_SE
+    Flag: {fileID: 2800000, guid: e244aa7f2f3c20a41b2f5566a94ac12b, type: 3}
+  - Locale: zh_CN
+    Flag: {fileID: 2800000, guid: 957b889976f4f134eb2ca5456c85563d, type: 3}
+  LegalSplitCount: 6000
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1

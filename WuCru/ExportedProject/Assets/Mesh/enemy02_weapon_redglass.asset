@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4300000
+Mesh:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: enemy02_weapon_redglass
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 72
+    topology: 0
+    firstVertex: 0
+    vertexCount: 48
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 19.19648, y: 19.038078, z: 54.021214}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes:
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 1
+  m_IsReadable: 0
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexBuffer:
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 0
+    m_VertexCount: 0
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 0
+    _typelessdata:
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 144
+      m_Range: 108.04243
+      m_Start: -54.021214
+      m_Data: 3e28051cad6191247cad3f2e151649c2d70a1cad6191e483523f2e1516493e28051cad0000e08352c0d11a1649c2d70a1cad6191247cadc0d10a00003e28f5e3527e15237cadc0d10a0000c2d7fae3527e15e38352c0d10a00003e28f5e3526191247cad3f2ee55731c2d7fae3526191e483523f2ee557313e28051cad6191e48352c0d10a00003e28f5e3527e15e383523f2e151649c2d70a1cad6191247cad3f2e151649c2d7fae3527e15237cadc0d10a00003e28f5e3529e6eeb8352c0d1eae9b6c2d7fae3529e6e2b7cadc0d1eae9b63e28051cadffff2f7cadc0d1faffffc2d70a1cad9e6eeb8352c0d1eae9b63e28051cadffffef83523f2e15a8cec2d70a1cadffff2f7cad3f2e15a8cec2d7fae3529e6e2b7cad3f2e15a8ce3e28f5e3529e6eeb83523f2e15a8ce3e28f5e35281eaec8352c0d1faffff3e28051cad9e6eeb83523f2ee5e9b6c2d7fae35281ea2c7cadc0d1eae9b6c2d70a1cadffff2f7cad3f2ee5e9b6
+      m_BitSize: 20
+    m_UV:
+      m_NumItems: 96
+      m_Range: 0.5106977
+      m_Start: 0.2013258
+      m_Data: b60c55faaa0558f3aa0555fab60c58f3b60cffffb60c55faaa0555faaa05ffffb60c81f1aa0584eaaa0581f1b60c84eab60c58f3aa0581f1aa0558f3b60c81f1b60c55fa601255fa8d0e58f3b60c58f3aa0555faaa0558f3d30358f3000055fab60c58f3b60c55faaa0558f3aa0555fab60cffffaa05ffffaa0555fab60c55fab60c84eab60c81f1aa0584eaaa0581f1aa0558f3aa0581f1b60c58f3b60c81f18d0e58f3601255fab60c55fab60c58f3d30358f3aa0555fa000055faaa0558f3
+      m_BitSize: 16
+    m_Normals:
+      m_NumItems: 96
+      m_Range: 1.9999847
+      m_Start: -0.9999924
+      m_Data: 808080808080808080ff80ff80ff80ff804280428042804280008000800080000080008000800080ff80ff80ff80ff80808080808080808080ff80ff80ff80ff804280428042804280008000800080000080008000800080ff80ff80ff80ff80
+      m_BitSize: 8
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 48
+      m_Data: 0f0000000f00
+      m_BitSize: 1
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 72
+      m_Data: 40200043401486711048a2204bc2340ef33450244913445516655d58a669d9c6759ef77160288ae14896e6699668aaaa2bcab62efbb6
+      m_BitSize: 6
+    m_UVInfo: 5
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 19.19648, y: 19.038078, z: 54.021214}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh:
+  m_BakedTriangleCollisionMesh:
+  m_MeshOptimized: 1
