@@ -45,3 +45,6 @@ desktop.ini
 *.apk
 crop_*.png
 character_crop.png
+[Bb]uild*/
+build_*.txt
+*.zip
